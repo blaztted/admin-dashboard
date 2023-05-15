@@ -57,4 +57,71 @@ body{
 .main{
     background-color: white;
     height: 100vh;
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+.header{
+    background-color: white;
+    display:flex;
+    flex-direction: column
+    ;
+}
+
+.navbar, .left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 20px;
+}
+
+
+.form-input{
+    width: 700px;
+    height: 25px;
+    background-color: #e4e4e7;
+    border-radius: 10px;
+    border: 1px solid  #e4e4e7;
+    margin-left: 20px;
+    margin-right: 405px;
+}
+
+.avatarNavbar{
+    margin: 0 40px;
+}
+.avatarWelcome{
+    margin: 0 30px;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 20px;
+}
+
+.right{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    margin-right: 50px;
+    
+}
+
+.btn{
+    background-color: #86efac;
+    width: 100px;
+    height: 35px;
+    border: 1px solid #e4e4e7;
+    border-radius: 15px;
+}
+
+
+.content{
+    background-color: #e4e4e7;
+    display: grid;
+    grid-template-columns: 60% 40$;
 }
